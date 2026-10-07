@@ -1,0 +1,18 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+body { background-color: #f4f7f6; color: #333; padding: 2rem; }
+.container { max-width: 800px; margin: 0 auto; }
+h1 { text-align: center; margin-bottom: 2rem; color: #2c3e50; }
+.card { background: #fff; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+.input-group { margin-bottom: 1rem; display: flex; flex-direction: column; }
+input { padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem; }
+input:focus { border-color: #3498db; outline: none; }
+.error-msg { color: #e74c3c; font-size: 0.85rem; margin-top: 0.25rem; min-height: 1rem; }
+.btn { padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; }
+.btn-add { background: #3498db; color: white; width: 100%; font-size: 1rem; }
+.btn-add:hover { background: #2980b9; }
+.btn-delete { background: #e74c3c; color: white; padding: 0.5rem 1rem; }
+.btn-delete:hover { background: #c0392b; }
+.qty-input { width: 60px; padding: 0.25rem; text-align: center; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th, td { padding: 1rem; text-align: left; border-bottom: 1px solid #eee; }
+.total-section { margin-top: 1.5rem; text-align: right; font-size: 1.25rem; color: #2c3e50; }
